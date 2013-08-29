@@ -1,4 +1,6 @@
+
 --==T:\ASNPGJK\Sources\IOS\IOS6~1\CH01_C~1\HELLOW~1\HELLOW~1\
+
 HWViewController.h
 @property (weak, nonatomic) IBOutlet UILabel *lblHelloWorld;
 - (IBAction)doBtnHide:(id)sender;
@@ -8,6 +10,7 @@ HWViewController.m
     [lblHelloWorld setHidden:![lblHelloWorld isHidden]];
     [sender setTitle:[lblHelloWorld isHidden] ? @"Show" : @"Hide" forState:UIControlStateNormal];
 }
+
 //
 //  HelloWorldViewController.h
 //  D01_HelloWorld
@@ -349,4 +352,3 @@ IOS开发从入门到精通 P155
     [alert release];
     [msg release];
 }
-
